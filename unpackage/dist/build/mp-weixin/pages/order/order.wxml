@@ -1,0 +1,1 @@
+<view><navigator class="bg-red cg block" style="text-align:center;margin:0 auto;width:200px;height:50px;line-height:50px;" url="rank/hot/hot">热门桌游排名</navigator></view>

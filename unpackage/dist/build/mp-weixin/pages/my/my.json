@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帮助/交流",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index"
+  }
+}

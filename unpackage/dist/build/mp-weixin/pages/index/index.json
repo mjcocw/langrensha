@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "getID": "/wxcomponents/game/getID",
+    "game": "/wxcomponents/game/game",
+    "get-i-d": "/wxcomponents/game/getID"
+  }
+}

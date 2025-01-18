@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/order/rank/hot/hot"
+  ],
+  "subPackages": [
+    {
+      "root": "subpageA",
+      "pages": [
+        "yuyin/yuyin"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "狼人杀工具",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouye.png",
+        "selectedIconPath": "static/shouyer.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/shangjia.png",
+        "selectedIconPath": "static/shangjiar.png",
+        "text": "热门"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/myr.png",
+        "text": "帮助/交流"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "subpageA"
+      ]
+    }
+  },
+  "entryPagePath": "pages/index/index",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
